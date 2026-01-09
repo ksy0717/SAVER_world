@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>saver_sim</name>
+  <version>0.0.0</version>
+  <description>Simulation bringup for SAVER worlds (Gazebo + TurtleBot3 spawn).</description>
+
+  <maintainer email="ksy22@todo.todo">ksy22</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- build tool -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- runtime (launch executes these) -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>turtlebot3_gazebo</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

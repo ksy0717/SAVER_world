@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>saver_nav</name>
+  <version>0.0.0</version>
+  <description>Navigation bringup for SAVER (SLAM Toolbox + Nav2 + RViz).</description>
+
+  <maintainer email="ksy22@todo.todo">ksy22</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- build tool -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- runtime -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+
+  <!-- TF / messages are often used indirectly; optional but ok -->
+  <exec_depend>tf2_ros</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
